@@ -8,15 +8,17 @@
 }
 
 body{
-	min-height: 100vh;
-	
+	background: url("images/Riven.jpg");
+	background-size: 120% auto;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 .login-form{
-	width: 360px;
+	width: 260px;
 	background: #FFFFFF;
 	
-	height: 360px;
+	height: 320px;
 	padding: 80px 40px;
     border-radius: 10px;
 	position: absolute;

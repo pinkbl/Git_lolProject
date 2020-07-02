@@ -1,0 +1,77 @@
+body{
+	background: url("../images/Riven.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+nobr{
+	color: #D0D0D0;
+	font-size: 30px;
+	margin-left: 120px;
+}
+
+.login-page{
+	color:#76742E;
+	font-size: 16px;
+	margin-left: 80%;	
+}
+
+.phone{
+	position: relative;
+}
+.phone::after{
+	content: url("../images/ewm.png");
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	width: 30px;
+	height: 30px;
+	transform-origin: bottom;
+    transform: scale(0);
+    opacity: 0;
+    -webkit-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.phone:hover::after{
+	transform: scale(1);
+	opacity: 1;
+}
+
+.a1:link{
+	color:red;
+	text-decoration:none;
+}
+.a1:hover{
+	color:whitesmoke;
+}
+.menubar:link{
+	color:white;
+	text-decoration: none;
+}
+
+.dropdown{
+	list-style: none;
+	float: left;
+	margin-right: 5px;
+	display: block;
+}
+.menubar{
+	position: relative;
+	right: 110px;
+}
+.dropdown:hover {
+	background-color: rgba(0,0,0,0.1);
+	padding-top: 5px;
+}
+.dropdown:hover .dropdown-menu li {
+	list-style: none;
+	list-style-position: outside;
+	line-height: 20px;
+	display: block;
+}
+.dropdown-menu li {
+	display: none;
+	background-color: transparent;
+	position: relative;
+}
